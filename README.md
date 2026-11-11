@@ -7,17 +7,6 @@ Este repositório contém a **API Back-End** do MVP (Produto Mínimo Viável), r
 
 ---
 
-##  Sumário
-- [Arquitetura e Padrões](#-arquitetura-e-padrões)
-- [Funcionalidades (MVP)](#-funcionalidades-mvp)
-- [Tecnologias Utilizadas](#️-tecnologias-utilizadas)
-- [Estrutura do Projeto](#-estrutura-do-projeto)
-- [Documentação da API](#-documentação-da-api)
-- [Instalação e Uso](#-instalação-e-uso)
-- [Equipe](#-equipe)
-
----
-
 ##  Arquitetura e Padrões
 
 O projeto segue os princípios de separação de responsabilidades (MTV/MVC), isolando as rotas, regras de negócio (controladores) e o acesso ao banco de dados para garantir a manutenibilidade e escalabilidade do código.
@@ -28,6 +17,7 @@ O projeto segue os princípios de separação de responsabilidades (MTV/MVC), is
 
 
 -- 
+
 ##  Segurança & Acesso
 - **Autenticação de Administradores:** Verificação de credenciais (login e senha) para liberação de acesso às funções administrativas.
 
