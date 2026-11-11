@@ -7,7 +7,7 @@ Este repositório contém a **API Back-End** do MVP (Produto Mínimo Viável), r
 
 ---
 
-## 📋 Sumário
+##  Sumário
 - [Arquitetura e Padrões](#-arquitetura-e-padrões)
 - [Funcionalidades (MVP)](#-funcionalidades-mvp)
 - [Tecnologias Utilizadas](#️-tecnologias-utilizadas)
@@ -26,10 +26,12 @@ O projeto segue os princípios de separação de responsabilidades (MTV/MVC), is
 
 ##  Funcionalidades (MVP)
 
-###  Segurança & Acesso
+
+-- 
+##  Segurança & Acesso
 - **Autenticação de Administradores:** Verificação de credenciais (login e senha) para liberação de acesso às funções administrativas.
 
-###  Gestão de Eventos
+##  Gestão de Eventos
 - **Listagem Pública (GET):** Retorno de todos os eventos cadastrados em formato JSON.
 - **Cadastro de Eventos (POST):** Recebimento e validação de dados (título, data, local, descrição e imagem). O servidor recusa requisições com campos obrigatórios vazios.
 - **Exclusão de Eventos (DELETE):** Remoção de eventos através do ID (eventos fixos não podem ser apagados).
