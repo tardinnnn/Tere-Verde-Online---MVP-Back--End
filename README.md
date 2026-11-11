@@ -19,7 +19,10 @@ O projeto segue os princípios de separação de responsabilidades (MTV/MVC), is
 -- 
 
 ##  Segurança & Acesso
+
 - **Autenticação de Administradores:** Verificação de credenciais (login e senha) para liberação de acesso às funções administrativas.
+  
+---
 
 ##  Gestão de Eventos
 - **Listagem Pública (GET):** Retorno de todos os eventos cadastrados em formato JSON.
