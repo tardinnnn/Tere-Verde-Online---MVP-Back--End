@@ -1,9 +1,5 @@
-# 🌿 Circuito Terê Verde - API Back-End
+#  Circuito Terê Verde - MVP Back-End
 
-![Status](https://img.shields.io/badge/Status-Em_Desenvolvimento-yellow?style=for-the-badge)
-![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
-![NestJS](https://img.shields.io/badge/nestjs-E0234E?style=for-the-badge&logo=nestjs&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white)
 
 O **Circuito Terê Verde** é um sistema web desenvolvido para centralizar a divulgação e o gerenciamento de atrativos turísticos, trilhas, cachoeiras e eventos na região de Teresópolis - RJ. 
 
@@ -11,7 +7,7 @@ Este repositório contém a **API Back-End** do MVP (Produto Mínimo Viável), r
 
 ---
 
-## 📋 Sumário
+##  Sumário
 - [Arquitetura e Padrões](#-arquitetura-e-padrões)
 - [Funcionalidades (MVP)](#-funcionalidades-mvp)
 - [Tecnologias Utilizadas](#️-tecnologias-utilizadas)
@@ -22,18 +18,18 @@ Este repositório contém a **API Back-End** do MVP (Produto Mínimo Viável), r
 
 ---
 
-## 🏛️ Arquitetura e Padrões
+## Arquitetura e Padrões
 
 O projeto segue os princípios de separação de responsabilidades (MTV/MVC), isolando as rotas, regras de negócio (controladores) e o acesso ao banco de dados para garantir a manutenibilidade e escalabilidade do código.
 
 ---
 
-## ✅ Funcionalidades (MVP)
+##  Funcionalidades (MVP)
 
-### 🔐 Segurança & Acesso
+### Segurança & Acesso
 - **Autenticação de Administradores:** Verificação de credenciais (login e senha) para liberação de acesso às funções administrativas.
 
-### 📅 Gestão de Eventos
+###  Gestão de Eventos
 - **Listagem Pública (GET):** Retorno de todos os eventos cadastrados em formato JSON.
 - **Cadastro de Eventos (POST):** Recebimento e validação de dados (título, data, local, descrição e imagem). O servidor recusa requisições com campos obrigatórios vazios.
 - **Exclusão de Eventos (DELETE):** Remoção de eventos através do ID (eventos fixos não podem ser apagados).
@@ -41,7 +37,7 @@ O projeto segue os princípios de separação de responsabilidades (MTV/MVC), is
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+##  Tecnologias Utilizadas
 
 - **Linguagem / Plataforma:** Node.js
 - **Framework:** NestJS / Express
@@ -51,7 +47,7 @@ O projeto segue os princípios de separação de responsabilidades (MTV/MVC), is
 
 ---
 
-## 📂 Estrutura do Projeto
+##  Estrutura do Projeto
 
 A organização segue a divisão clara de pastas e responsabilidades exigida pelos requisitos não-funcionais:
 
